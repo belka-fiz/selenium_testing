@@ -8,7 +8,7 @@ This repo is made for practice exercises for [Test automation using Selenium and
 - Running the first script
 - Basic practice of choosing elements:
   - By id
-  - By css selectors
+  - By CSS selectors
   - By XPATH
   - etc.
 
@@ -16,6 +16,9 @@ This repo is made for practice exercises for [Test automation using Selenium and
 - Multiple-choice elements
 - Getting an attribute from an element
 - Executing JS script
+- Attaching a file
+- Working with alerts and windows
+- Working with expectations(not about the mindset))
 
 ### Module 3
 - Introduction to Git(like pushing this to the remote)
@@ -24,7 +27,7 @@ This repo is made for practice exercises for [Test automation using Selenium and
 ### Module 4 - coming soon
 
 - Page Object pattern
-- first real tests 
+- First real tests 
 
 ---
 ## Installation
