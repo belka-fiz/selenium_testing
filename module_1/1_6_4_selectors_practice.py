@@ -1,5 +1,5 @@
 import math
-import time 
+import time
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -7,6 +7,8 @@ from selenium.webdriver.common.by import By
 find_link = "http://suninjuly.github.io/find_link_text"
 form_link = "http://suninjuly.github.io/simple_form_find_task.html"
 text = str(math.ceil(math.pow(math.pi, math.e)*10000))
+
+browser = None
 
 try:
     browser = webdriver.Chrome()
@@ -30,4 +32,3 @@ finally:
     time.sleep(30)
     # закрываем браузер после всех манипуляций
     browser.quit()
-

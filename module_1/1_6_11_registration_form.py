@@ -40,7 +40,7 @@ with webdriver.Chrome() as browser:
     welcome_text_elt = browser.find_element(By.TAG_NAME, "h1")
 
     # Verifying the text
-    assert "Congratulations! You have successfully registered!" == welcome_text_elt.text
+    assert welcome_text_elt.text == "Congratulations! You have successfully registered!"  # noqa
 
     time.sleep(10)
 
