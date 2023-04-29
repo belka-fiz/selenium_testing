@@ -10,4 +10,4 @@ with webdriver.Chrome() as browser:
     button.click()
     message = browser.find_element(By.ID, "verify_message")
 
-    assert "successful" in message.text
+    assert "successful" in message.text  # noqa
