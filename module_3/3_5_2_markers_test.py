@@ -1,3 +1,8 @@
+"""
+An example of using marks for different test suits
+Note that custom marks should be declared in pytest.ini
+"""
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By

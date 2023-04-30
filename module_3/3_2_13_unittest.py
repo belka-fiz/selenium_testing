@@ -1,3 +1,5 @@
+"""Exercise to make working tests with unittest lib"""
+
 import unittest
 
 from selenium import webdriver
